@@ -5,7 +5,7 @@
 
 ----
 
-#### How much data your publisher program will send to the message broker in one run? ####
+### How much data your publisher program will send to the message broker in one run? ####
 The program will send 5 separate UserCreatedEventMessage objects to the message broker in one run.
 
 Each message contains:
@@ -22,7 +22,7 @@ The 5 messages sent are:
 Each message is serialized using Borsh (Binary Object Representation Serializer for Hashing) 
 before being sent to the "user_created" queue in the message broker.
 
-#### The url of: "amqp://guest:guest@localhost:5672" is the same as in the subscriber program, what does it mean? ####
+### The url of: "amqp://guest:guest@localhost:5672" is the same as in the subscriber program, what does it mean? ####
 The identical URL "amqp://guest:guest@localhost:5672" in both the publisher and subscriber 
 programs  means they're connecting to the same message broker instance. This is essential for the 
 publisher-subscriber pattern to work correctly.
@@ -40,3 +40,6 @@ The URL in detail:
 By using the same connection parameters, the publisher can send messages to the 
 "user_created" queue, and the subscriber can receive those messages from the same queue, 
 enabling asynchronous communication between these components.
+
+## RabbitMQ Images ##
+[RabbitMQ Run Image](publisher/rabbit1.jpg)
