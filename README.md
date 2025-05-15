@@ -42,4 +42,4 @@ By using the same connection parameters, the publisher can send messages to the
 enabling asynchronous communication between these components.
 
 ## RabbitMQ Images ##
-[RabbitMQ Run Image](publisher/rabbit1.jpg)
+![RabbitMQ Run Image](../publisher/rabbit1.jpg)
