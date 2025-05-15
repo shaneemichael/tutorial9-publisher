@@ -43,3 +43,4 @@ enabling asynchronous communication between these components.
 
 ## RabbitMQ Images ##
 ![RabbitMQ Run Image](../publisher/rabbit1.jpg)
+![Sending Image](../publisher/sending.jpeg)
