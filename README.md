@@ -42,8 +42,8 @@ By using the same connection parameters, the publisher can send messages to the
 enabling asynchronous communication between these components.
 
 ## RabbitMQ Images ##
-![RabbitMQ Run Image](../publisher/rabbit1.jpg)
-![Sending Image](../publisher/sending.jpeg)
-![RabbitMQ Run2 Image](../publisher/rabbit2.jpeg)
-![RabbitMQ Run3 Image](../publisher/rabbit3.jpeg)
-![RabbitMQ Run4 Image](../publisher/rabbit4.jpeg)
+![RabbitMQ Run Image](https://github.com/shaneemichael/tutorial9-publisher/blob/main/rabbit1.jpg)
+![Sending Image](https://github.com/shaneemichael/tutorial9-publisher/blob/main/sending.jpeg)
+![RabbitMQ Run2 Image](https://github.com/shaneemichael/tutorial9-publisher/blob/main/rabbit2.jpeg)
+![RabbitMQ Run3 Image](https://github.com/shaneemichael/tutorial9-publisher/blob/main/rabbit3.jpeg)
+![RabbitMQ Run4 Image](https://github.com/shaneemichael/tutorial9-publisher/blob/main/rabbit4.jpeg)
